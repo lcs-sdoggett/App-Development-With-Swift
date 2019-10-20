@@ -8,12 +8,9 @@
 let stepGoal = 10000
 let steps = 3948
 
-if steps < stepGoal / 2 {
-    print("Almost halfway!")
-} else {
-    print("Over halfway!")
-}
-
+var message : String
+message = steps > stepGoal / 2 ? "Over halfway!" : "Almost halfway!"
+print(message)
 
 /*:
 
