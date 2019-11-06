@@ -46,6 +46,6 @@ if textToSearchThrough.contains("to be, or not to be"){
 /*:
  Print to the console the number of characters in your name by using the `count` property on `name`.
  */
-
+print(name.count)
 
 //: [Previous](@previous)  |  page 4 of 5  |  [Next: App Exercise - Password Entry and User Search](@next)
