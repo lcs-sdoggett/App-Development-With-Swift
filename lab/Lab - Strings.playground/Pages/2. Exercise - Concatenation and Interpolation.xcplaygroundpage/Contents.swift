@@ -12,7 +12,7 @@ let home = city + ", " + state
  */
 var introduction = "I live in"
 introduction += " " + home
-
+print(introduction)
 /*:
  Declare a `name` constant and assign it your name as a string literal. Then declare an `age` constant and give it your current age as an `Int`. Then print the following phrase using string interpolation:
  
