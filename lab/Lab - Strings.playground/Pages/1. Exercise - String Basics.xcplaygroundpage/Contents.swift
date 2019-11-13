@@ -16,7 +16,7 @@ let name = "Scott"
     * `My favorite quote is "The grass is always greener on the other side."`
  */
 let favouriteQuote = "My favourite quote is \"idk\""
-
+print(favouriteQuote)
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
  */
