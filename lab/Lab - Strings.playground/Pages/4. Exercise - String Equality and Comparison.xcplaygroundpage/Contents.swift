@@ -5,6 +5,7 @@
  */
 let nameInCaps = "Scott Doggett"
 let name = "scott doggett"
+
 if nameInCaps == name {
     print("The two strings are equal")
 } else {
@@ -39,7 +40,8 @@ if junior.hasSuffix("Jr.") {
 import Foundation
 let textToSearchThrough = "To be, or not to be--that is the question"
 let textToSearchFor = "to be, or not to be"
-if textToSearchThrough.contains("to be, or not to be"){
+
+if textToSearchThrough.lowercased().contains(textToSearchFor){
     print("I found it!")
 }
 
