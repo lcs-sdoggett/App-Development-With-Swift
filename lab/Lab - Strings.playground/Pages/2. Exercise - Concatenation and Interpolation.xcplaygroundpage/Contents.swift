@@ -6,13 +6,17 @@
 let city = "Lindsay"
 let state = "Ontario"
 let home = city + ", " + state
-
 /*:
  Use the compound assignment operator (`+=`) to add `home` to `introduction` below. Print the value of `introduction`.
  */
 var introduction = "I live in"
 introduction += " " + home
 print(introduction)
+
+// Example: When concatenation is not enough
+let declaration = "My favourite number is"
+let number = 10
+let sentence = "\(declaration) \(number)"
 /*:
  Declare a `name` constant and assign it your name as a string literal. Then declare an `age` constant and give it your current age as an `Int`. Then print the following phrase using string interpolation:
  
